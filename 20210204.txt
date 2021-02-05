@@ -1,3 +1,4 @@
+2021 -2 -4:
 git clone "git服务器上的项目地址"---实现将服务器上面的项目克隆到本地；
 git status test.txt 查看未被追踪的文件
 git add test.txt  命令可将该文件添加到暂存区
@@ -5,5 +6,8 @@ git commit -m “注释”
 git push 推到远程服务器
 git branch 查看本地分支
 git branch -a 查看远程服务器分支
+
+2021 -2 -5: 
 git checkout -b branchname  创建本地分支‘branchname‘
+git pull --set-upstream origin branch1  分支推送到主master 分支
 
