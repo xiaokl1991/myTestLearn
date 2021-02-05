@@ -19,5 +19,8 @@ git branch -D branchname 大D 强制，不推荐使用
 分支已经在服务器，首先要删除本地，执行上面删除命令，还要删除服务器
 git branch -r -d origin/branch1  删除远程服务器分支
 
+命令检查本地分支、服务器分支，删除了分支，当刷新服务器实际存在
+git push origin :branchname 将本地操作同步到服务器，才能正真将服务器的分支删除成功
+
 
 
